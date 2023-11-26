@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gideon Roman', serif;
+}
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hero-img {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/00/Roman_Empire_Trajan_117AD.png");
+    min-height: 600px;
+    background-size: cover;
+    border: 1px solid aqua;
+}
+
+#hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+h1 {
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+h1, h2 {
+    background-color: #00ffff;
+    font-family: 'Gideon Roman', serif;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.card-1 {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(242, 77, 77);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+
+
+}
+
+.card-2 {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(242, 77, 77);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+
+}
+
+.card-3 {
+    width: 550px;
+    height: 300px;
+    background-color: rgb(242, 77, 77);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+
+}
+
+.guide-container
+{
+    width: 400px;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.guide-card {
+    display: block;
+}
+
+.guide-img {
+    width: 150px;
+}
